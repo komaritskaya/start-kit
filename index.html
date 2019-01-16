@@ -1,17 +1,87 @@
 <!DOCTYPE html>
 <html lang="ru" class="no-js  page">
-<head>
-  <meta charset="UTF-8">
-  <title>Документ</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script>
-    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-  </script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Документ</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(
+        'no-js',
+        'js'
+      );
+    </script>
+  </head>
+  <body>
+    <header></header>
 
-  Документ
+    <main>
+      <promo>
+        <h1>Cтудия пилатеса</h1>
+        <p>Твое здоровое тело через 10 занятий</p>
+        <a href="#">Смотреть расписание</a>
+      </promo>
+    </main>
 
-  <script src="js/script.js"></script>
-</body>
+    <section class="about">
+      <h2 class="about__title">О пилатесе</h2>
+      <div class="about__content">
+        <p>
+          Пилатес соединяет элементы растяжки с элементами силовой тренировки
+        </p>
+        <p>
+          Комплекс упражнений укрепляет мышцы пресса и спины, улучшает гибкость
+          мышц и связок, подвижность суставов и избавляет от дискомфорта в
+          позвоночнике
+        </p>
+      </div>
+      <a href="#" class="about__more">подробнее</a>
+    </section>
+
+    <section class="schedule">
+      <h2>Расписание и стоимость</h2>
+      <div class="schedule__content"></div>
+    </section>
+
+    <section class="classes">
+      <h2>Как проходят занятия</h2>
+      <div class="classes__content">
+        <div class="classes__item">
+          <h3>Дыхательные техники</h3>
+          <p>
+            Специальные дыхательные упражнения помогут сконцентрировать внимание
+            и сфокусировать сознание на мышцах тела
+          </p>
+        </div>
+        <div class="classes__item">
+          <h3>Разминка</h3>
+          <p>
+            Перед началом занятия разогреваем тело: проработываем мышцы спины,
+            шеи, выполняем упражнения на баланс под спокойную музыку
+          </p>
+        </div>
+        <div class="classes__item">
+          <h3>Основной блок</h3>
+          <p>
+            Упражнения выполняются лежа на коврике без оборудования или с малым
+            оборудованием, в медленном темпе
+          </p>
+        </div>
+        <div class="classes__item">
+          <h3>Стрейчинг</h3>
+          <p>
+            В конце занятия выполняем специальные упражнения для развития
+            гибкости, снятия усталости, стресса и мышечного напряжения
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback"><h2>Отзывы</h2></section>
+
+    <section class="contacts"><h2>Контакты</h2></section>
+
+    <footer></footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
